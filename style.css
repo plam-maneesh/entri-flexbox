@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* flex box start */
+.container {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.profile-icon {
+
+    display: flex;
+   
+
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 20px 30px;
+
+    display: flex;
+    gap: 20px;
+}
+
+/* flex box end */
+
+/* Header section style start */
+.container h2 {
+
+    color: white;
+
+    padding: 10px;
+    font-style: none;
+
+}
+
+.container a img {
+
+    width: 50px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.navbar-nav a{
+
+    color: white;
+    text-decoration: none;
+
+
+
+}
+
+/* Header section style end */
+
+

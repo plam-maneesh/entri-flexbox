@@ -4,11 +4,24 @@
 }
 
 /* flex box start */
+
+.navbar{
+
+    position: fixed;
+    width: 100%;
+    
+
+
+
+}
+
 .container {
+
     background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
+    
 
 }
 
@@ -58,3 +71,79 @@
 /* Header section style end */
 
 
+/* Style body Flex BOX Start */
+
+
+.card-catecary{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 80px;
+ 
+}
+
+
+
+
+
+/* Style body Flex BOX end */
+
+/* Style body Start */
+
+
+.card{
+
+    
+    box-shadow: 3px 3px 10px;
+    
+   margin-top: 80px ;
+
+
+
+}
+
+
+
+/* Style body end */
+
+
+/* Style Footer start */
+
+.footer{
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: larger;
+    font-weight: 600;
+    text-decoration: none;
+    list-style: none;
+    background-color: black;
+   color: white;
+   padding: 10px;
+
+
+
+
+}
+
+.footer-content .footer-item a{
+
+    
+    list-style: none;
+
+    font-style: normal;
+    color: white;
+
+
+
+
+}
+
+.footer-content .footer-item{
+
+    list-style: none;
+}
+
+
+
+/* Style footer end */
